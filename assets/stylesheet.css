@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.poster {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+    background: linear-gradient(to right, #FFC0CB, #FF69B4);
+    color: #FF00FF;
+    text-align: center;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.qoute{
+    font-size: 20px;
+    font-style:italic;
+    margin: 10px 0;
+}
+
+.author{
+    font-size: 10px;
+    font-style:initial;
+}
